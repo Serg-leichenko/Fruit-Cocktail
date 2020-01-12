@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+.wrap {
+  width: 100%;
+  height: 100%;
+}
+
+.wrap-container {
+  background: url("./images/bg-1.jpg");
+  padding: 0 10px;
+  max-width: 530px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.cherry-img {
+  margin-left: 30px;
+}
+
+.cherry {
+  width: 10%;
+  height: auto;
+}
+
+.title {
+  display: block;
+  width: 40%;
+  margin: auto;
+}
+
+.igrosoft {
+  margin-top: 40px;
+}
+
+.clubnika-img img {
+  position: absolute;
+  right: 0;
+  top: -47px;
+  width: 17%;
+}
+
+.fruit-block {
+  position: relative;
+}
+
+.fruit-block_img {
+  position: absolute;
+  top: 58px;
+  left: 42px;
+  width: 85%;
+  height: 65%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fruit-cocktail {
+  width: 100%;
+  height: 100%;
+}
+
+.fruit-block_img_1,
+.fruit-block_img_2,
+.fruit-block_img_3,
+.fruit-block_img_4,
+.fruit-block_img_5 {
+  overflow: hidden;
+  width: 18%;
+  height: 100%;
+}
+
+.fruit-block_img_1 img,
+.fruit-block_img_2 img,
+.fruit-block_img_3 img,
+.fruit-block_img_4 img,
+.fruit-block_img_5 img {
+  width: 100%;
+  height: 100%;
+}
+
+.btn-play img {
+  display: block;
+  width: 25%;
+  margin: auto;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 425px) {
+  .fruit-block_img {
+    top: 45px;
+    left: 31px;
+  }
+
+  .clubnika-img img {
+    top: -38px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .fruit-block_img {
+    top: 39px;
+    left: 27px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .fruit-block_img {
+    top: 33px;
+    left: 23px;
+  }
+
+  .clubnika-img img {
+    top: -30px;
+  }
+}
