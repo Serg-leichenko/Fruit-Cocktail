@@ -52,14 +52,24 @@ html {
   position: relative;
 }
 
+.bg-down {
+  position: absolute;
+  top: 59px;
+  left: 40px;
+  background-color: #1717bb;
+  width: 450px;
+  height: 262px;
+}
+
 .fruit-block_img {
   position: absolute;
-  top: 58px;
+  top: 66px;
   left: 42px;
   width: 85%;
   height: 65%;
   display: flex;
   justify-content: space-between;
+  z-index: 9999;
 }
 
 .fruit-cocktail {
@@ -74,7 +84,7 @@ html {
 .fruit-block_img_5 {
   overflow: hidden;
   width: 18%;
-  height: 100%;
+  height: 93%;
 }
 
 .fruit-block_img_1 img,
